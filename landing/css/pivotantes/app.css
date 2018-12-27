@@ -1,0 +1,63 @@
+header{padding: 1em;}
+header, header a{color: #005085!important;}
+body{font-family: 'Numans', sans-serif;}
+h1,h2, h3{font-family: 'Numans', sans-serif;}
+h1{text-shadow: 3px 3px 0px #222;  font-size: 3em; color: #fff;}
+h2{font-size: 1.5em; font-weight: bold;}
+h3{font-size: 1em; font-weight: lighter;}
+h4{color: #000000; font-size: 1.5em; font-weight: bold;}
+footer, footer a{color: #ffffff;}
+footer p{font-size: 0.875em;}
+input {border: 2px solid #888888; border-radius: 4px; background-color: #ffffff!important;}
+input[type=submit] {width: 100%; padding: 1em; color: #ffffff; background-color: #005085!important; border: none;}
+#enviar{font-size: 1.25em;}
+
+
+.invisible{display: none;}
+.padding-lat{padding: 0em 1em 0em 1em;}
+.centrar{text-align: center!important;}
+.bold{font-weight: bold!important;}
+.both{clear: both;}
+.circular{margin: 2em 0em 1em 0em; border-radius: 800px; overflow: hidden;}
+.der{float: right; padding: 0.5em; }
+.izq{float: left; padding: 0.5em; }
+.gris{color: #6b6b6b;}
+.fondo_azul{background-color: #005085;}
+.texto_azul{font-weight: normal; color: #005085;}
+.foto_fondo{color:#ffffff; background-image: url("../../img/pivotantes-2.jpg"); background-repeat: no-repeat; height: 44em;}
+.datos{margin-top: 25em;}
+.contenedor_form{background: rgba(255, 255, 255, 0.8); color: #000000; margin-top: 2em; padding: 2em;}
+.datos-gracias{margin-top: 8.125em; background: rgba(255, 255, 255, 0.8);padding: 2em;}
+.error{color: red; font-size: 0.75em; text-align: left!important;}
+.checkbox {float: left; font-size: 0.75em; color: #666666; margin: 0.5em 0.5em 0em 0em;}
+.foto_mobile {display: none; visibility: hidden;}
+.faja{margin-top: 2em; background: rgba(0, 0, 0, 0.6);}
+.h1_gracias{color: #005085!important; text-shadow: none;}
+#ahora_12{font-size: 1.75em!important; padding: 1em; background-color: #ffffff;}
+.display_inline{display: inline;}
+
+
+
+/**************************************************************/
+/********************MEDIA QUERIES*****************************/
+
+/* Entre 5-800 px */  
+@media only screen and (max-width: 800px) and (min-width: 5px) {
+
+	header{text-align: center!important; padding: 0.5em!important;}
+	header p{margin: 0!important;}
+	h1{font-size: 1.15em!important; padding: 0.25em!important; color: #ffffff; background-color: #005085; margin-bottom: 1em!important; text-shadow: none;}
+	h2{font-size: 1em; font-weight: bold;}
+	h3{font-size: 1em; font-weight: lighter;}
+	h4{font-size: 1.25em; margin-bottom: 1em;}
+	.contenedor_form{background: rgba(210, 210, 210, 1); color: #000000; margin-top: 1em; padding: 2em;}
+	.foto_fondo{display: none;}
+	.der, .izq{float: none; margin: auto; text-align: center;}
+	.invisible_mobile{display: none;}
+	.foto_mobile {display:inline-block!important; visibility: visible!important;}
+	select {font-size: 0.75rem;}
+	#ahora_12{padding: 0; padding-bottom: 1em; background-color: #ffffff;}
+	input[type=submit] {padding: 20px 5px;}
+	#enviar{font-size: 1em;}
+}
+

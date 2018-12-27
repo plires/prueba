@@ -1,0 +1,18 @@
+/* humanstxt.org */
+
+/* EQUIPO */
+	Dise&ntilde;ador: Pablo Jose Lires
+	Contacto: pablolires@gmail.com
+	Origen: Buenos Aires, Argentina.	
+
+	Desarrollador: Pablo Jose Lires
+	Contacto: pablolires@gmail.com
+	Origen: Buenos Aires, Argentina.
+
+/* SITIO */
+	Ultima actualizaci&oacute;n: 10-10-2015
+	Lenguaje: Castellano
+	Doctype: HTML5
+	Componentes: jQuery, Foundation zurb
+	Standards: HTML5, CSS3, JavaScript, Responsive Design
+	Software: Sublime Text2,PhotoShop CC, Illustrator CC.

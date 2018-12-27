@@ -1,0 +1,252 @@
+/*------------------------------------------------------------------------------
+  Estilos Custom
+------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+  Autor: Pablo Lires
+------------------------------------------------------------------------------*/
+
+/*Reset*/
+*{ margin: 0; padding: 0;}
+
+/**************************************************************/
+/*************************** TAGS *****************************/
+
+body {background-color: #ffffff; color: #000000; font-family: 'Open Sans', sans-serif;}
+h1{ font-size: 1.5em; background-color: #005085; color: #ffffff; text-transform: uppercase; margin-top: 1em; padding-left: 0.5em;}
+h2{ font-size: 1.35em;color: #005085; font-variant: 400!important; margin: 0.25em 0em;}
+h3{ font-size: 1.2em;color: #005085; font-variant: normal!important; margin: 0.25em 0em;}
+
+
+a { text-decoration: none; border: none;}
+nav ul li a:hover, footer ul li a:hover, aside ul li a:hover { opacity: 0.6; filter:Alpha(opacity=60);}
+ul { list-style-type: none; }
+nav ul li, footer ul li{float: left; }
+nav ul li a{ display: block; }
+
+/**************************************************************/
+/*************************** COMUNES **************************/
+.centrar { text-align: center;}
+.derecha { text-align: right;}
+.both{ clear: both; visibility: hidden;}
+.margin_botomm_1em{ margin-bottom: 1em;}
+.margin_top_1em{ margin-top: 1em;}
+.anchor { color: #005085!important;}
+.text_transform_none { text-transform: none!important;}
+.separador{margin: 1em 0em;}
+.buttom{display: inline-block; margin: 1em 0em; padding: 1em; text-transform: uppercase; background-color: #005085; color: #ffffff; border-radius: 1em;}
+
+
+/**************************************************************/
+/*************************** HEADER ***************************/
+#header_logo { margin: 1em 0em;}
+#header_contactenos { 
+  width: 9em;
+  display: inline-block;
+  float: right;
+  margin-top: 6.3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.063em;
+  background-color: #005085; 
+  color: #ffffff;
+  -webkit-border-top-left-radius: 0.7em;
+  -webkit-border-top-right-radius: 0.7em; 
+  -moz-border-top-left-radius: 0.7em;
+  -moz-border-top-right-radius: 0.7em; 
+  border-top-left-radius: 0.7em;
+  border-top-right-radius: 0.7em; 
+}
+
+/**************************************************************/
+/************************** NAV *******************************/
+.menu_bar {visibility: hidden; display: none;}
+
+nav {
+  font-size: 1.125em;
+  text-transform: uppercase; 
+  height: 2.78em;
+  margin-bottom:1em!important;
+  background-color: #EEEEEE; 
+  border: solid 1px #D4D5D5;
+  box-shadow: 0px 2px 5px #888888;
+  -moz-box-shadow: 0px 2px 5px #888888;
+  -webkit-box-shadow: 0px 2px 5px #888888;
+}
+
+nav ul li { padding-top: 0.6em; height: 2.78em;}
+
+.nav_activo{ background-color: #005085; background: url('../img/header/nav-fondo.jpg'); background-repeat: repeat-x; border-left: solid 1px #888888; border-right: solid 1px #888888;}
+.nav_activo a { color: #ffffff!important; font-weight: 700;}
+
+
+nav a { color: #323232; vertical-align: middle; margin-left: 1em; margin-right: 1em;}
+
+
+nav a { color: #323232; vertical-align: middle; margin-left: 1em; margin-right: 1em;}
+
+/**************************************************************/
+/************************** ASIDE *****************************/
+aside { text-transform: uppercase; color: #ffffff;}
+aside ul li { width: 100%; padding: 0.5em; border-bottom: solid 1px #ffffff; background-color: #005085;}
+aside ul li a{color: #ffffff;}
+.aside_h3{ font-size: 1.163em; color: #ffffff; background-color: #3C3C3B; padding: 0.3em;}
+.aside_solicita_presupuesto{ 
+  background-color: #3C3C3B; 
+  border-radius:0.5em; 
+  color: #ffffff; 
+  display: block; 
+  padding: 0.3em; 
+  margin-top: 1em;
+  box-shadow: 0px 2px 5px #888888;
+  -moz-box-shadow: 0px 2px 5px #888888;
+  -webkit-box-shadow: 0px 2px 5px #888888;
+}
+.aside_bot_activo{ background: url('../img/aside/aside-fondo-gris.gif'); background-repeat: repeat;}
+.aside_bot_activo a{ color: #005085;}
+.aside_text_normal{text-transform: lowercase!important;}
+.contacto_tel{display: none;}
+
+/**************************************************************/
+/***************************HOME*******************************/
+a .home_h2 {text-align: right;}
+a .home_h3{ margin-top: -2em;}
+.home_h2 { padding-right: 0.3em; color: #ffffff; text-transform: uppercase; font-size: 22px; background-color: #005085; margin-top: -1.5em; position: relative; top: 1.5em;}
+.home_h3{ position: relative; top:4em; left: 0; display: block;background: url('../img/home/home_fondo_h3.png');
+          font-size: 1.438em; font-weight: normal; color: #ffffff; display: inline-block; padding: 0.3em;}
+.home_span_celeste{ color: #0094FF;}
+
+
+/**************************************************************/
+/***************************PRESUPUESTO************************/
+#presupuesto { background-color: #E2E3E4; padding: 1em; margin-bottom: 1em;}
+.presupuesto_h2 { font-size: 1.125em; color: #005085; text-transform: uppercase; font-weight: normal; margin-bottom: 1em;}
+label { font-size: 0.75em; color: #005085; display: inline-block; padding-left: 0.5em; margin-bottom: 0.5em;}
+.presupuesto_input { font-size: 0.75em!important; color: #323232!important; width: 100%; height: 2.750em; margin-bottom: 1.5em; padding-left: 0.5em; border: none;}
+.presupuesto_comentarios { font-size: 0.75em!important; height: 8em!important; padding: 0.5em; line-height: 1.5;}
+.presupuesto_enviar { color: #FFFFFF; background-color: #005085; border-radius: 10px; padding: 0.5em; float: right; border: none; font-size: 1em; text-transform: uppercase;}
+.contacto_error { font-size: 0.75em; color: red;}
+.contacto_mail{text-transform: lowercase!important; display: inline-block; margin-top: 1em; color: #ffffff; background-color: #3C3C3B; width: 100%; padding: 0.5em;}
+
+
+/**************************************************************/
+/***************************PORTONES***************************/
+.portones_contenedor { max-width: 21.875em; margin: auto; border: solid 1px #DCDCDC;}
+.porton_titulo { background-color: #005085; color: #FFFFFF; font-weight: normal; text-align: right!important; padding-right: 0.5em; }
+.portones_ver_todos { width: 10em; padding: 0.5em; font-size: 1.25em; color: #FFFFFF; display: block; background-color: #005085; border-radius: 10px; margin: auto; text-transform: uppercase;}
+.portones_paginacion { font-size: 1.5em; color: #DCDCDC; padding: 0.25em;}
+.portones_paginacion a { color: #DCDCDC;}
+.portones_activa { color: #005085!important; font-weight: 700;}
+
+
+
+
+/**************************************************************/
+/***************************FOOTER*****************************/
+footer{ padding: 1em 0em 2em 0em; font-size: 0.875em; margin-top: 4em!important;}
+footer ul li a, footer p{ color: #ffffff!important; }
+footer ul {display: inline-block; margin: 2em auto 0em auto;}
+footer ul li a{ display: block; text-transform: uppercase;}
+#footer_logo{ margin-top: 1em;}
+.footer_fondo_celeste { background-color: #005085; }
+.footer_separador{margin: 0em 0.7em 0em 0.7em;}
+.footer_final{ background: url('../img/footer/fondo-footer.gif'); background-repeat: repeat-x;}
+
+/**************************************************************/
+/***************************CONTACTO*****************************/
+.contacto_tel{font-size: 1.25em;}
+
+
+/**************************************************************/
+/********************MEDIA QUERIES*****************************/
+
+
+/* Entre 5-640 px */  
+@media only screen and (max-width: 640px) and (min-width: 5px) {
+
+/**************************************************************/
+/*************************** HOME *****************************/
+  .home_h2 { margin: auto; width: 10.7em;}
+
+
+/**************************************************************/
+/*************************** NAV ******************************/
+
+  #header_logo{margin: auto; margin: 4em auto 2em auto!important;}
+
+  nav {
+    width: 80% !important;
+    height: 100%;
+    position: fixed;
+    top: 4.25em;
+    background-color: #005085;
+    z-index: 998;
+    left: -100%;
+    font-size: 0.750em;
+  }
+
+  nav ul li {
+    width: 100%;
+    border: none !important;
+    padding: 0.8em 1em;
+    display: block !important;
+    float: none !important;
+    height: auto;
+    background-color: #005085;
+    text-align: left;
+    border-radius: 0px;
+    border-bottom: solid 1px #fff!important;
+  }
+
+.nav_activo{ background-color: #5172AA!important; color: #005085!important; background: url('../img/'); background-repeat: no-repeat;}
+
+
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff !!important;
+    font-size: 1.375em;
+  }
+
+
+  nav ul li:hover{display: inline-block;}
+
+  nav ul li a:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+
+  .menu_bar{visibility: visible; display: inline;}
+  #header_contactenos {visibility: none; display: none;}
+
+
+  .menu_bar{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    background:#005085;
+  }
+
+  .menu_bar .bt_menu{
+    display: block;
+    padding: 0.5em;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #999;
+    text-decoration: none;
+    font-size: 1.250em;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .navegacion{
+    float: right;
+    padding: 0.1em 0.1em 0.3em 0em;
+  }
+
+  .contacto_tel{display: inline-block; color: #005085!important; font-weight: 700;}
+
+}
+
